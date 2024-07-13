@@ -1,4 +1,4 @@
-# WebsiteIndexer
+# WebsiteIndexerAVL
 
 ## Overview
 
@@ -16,6 +16,10 @@ This project is part of the CSE111 Data Structures course at Al Alamein Internat
   - Search for a URL and retrieve all associated IP addresses.
   - Search for an IP address and find the associated URL.
 
+## Requirements
+
+- Java Development Kit (JDK) 8 or later
+- Eclipse IDE or any other Java IDE
 
 
 ## Usage
@@ -37,21 +41,23 @@ This project is part of the CSE111 Data Structures course at Al Alamein Internat
 - `Main.java`: Contains the main method to initiate the program and handle user interactions.
 - `AVLTree.java`: Implements the AVL Tree data structure.
   - **Methods**:
-    - `insert(String page, String ipAddress)`: Inserts or updates a node in the tree.
-    - `display()`: Displays the AVL tree in alphabetical order.
-    - `searchURL(String page)`: Searches for a URL and returns associated IP addresses.
-    - `searchIP(String ipAddress)`: Searches for an IP address and returns the associated URL.
-- `Node.java`: Represents a node in the AVL tree.
-- `Utils.java`: Contains utility functions for reading the input file and processing data.
+    - `insert(String websiteName, SingleLinkedList ips)`: Inserts or updates a node in the tree.
+    - `search(String key)`: Searches for a URL and displays associated IP addresses.
+    - `searchforip(String ip)`: Searches for an IP address and finds the associated URL.
+    - `inorder()`: Displays the AVL tree in alphabetical order.
+    - `breadth_first()`: Displays the AVL tree level by level.
+    - `read_data_from_file(String fileName)`: Reads data from a file and constructs the AVL tree.
 
-## Contribution
+- `AVLTreeNode.java`: Represents a node in the AVL tree.
+  - Contains the website name, a linked list of IP addresses, and pointers to left and right children.
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you have any suggestions or improvements.
+- `SingleLinkedList.java`: Implements a singly linked list to store IP addresses for each website.
+  - **Methods**:
+    - `addNode(String ipAddress)`: Adds an IP address to the list.
+    - `display()`: Displays all IP addresses in the list.
+
+
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Contact
-
-For any questions or inquiries, please contact [your.email@example.com](mailto:your.email@example.com).
+This project is licensed under the MIT License.
