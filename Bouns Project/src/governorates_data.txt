@@ -1,0 +1,6 @@
+Alexandria Wheat 50000 Corn 10000
+Aswan Wheat 12000 Corn 45000
+Asyut Wheat 48000 Corn 78000
+Beheira	Wheat 86000 Corn 97000
+Beni_Suef Wheat 53000 Corn 22000
+Cairo Wheat 51000 Corn 27000

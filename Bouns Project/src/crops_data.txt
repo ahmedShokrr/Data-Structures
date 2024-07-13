@@ -1,0 +1,2 @@
+Wheat Beheira 86000 Cairo 51000 Beni_Suef 53000 Menofiya 48000 Aswan 12000 Alexandria 10000 Asyut 56000
+Corn Alexandria 10000 Aswan 45000 Asyut 78000 Beheira 97000 Beni_Suef 22000 Cairo 27000
